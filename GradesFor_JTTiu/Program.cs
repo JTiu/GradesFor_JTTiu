@@ -9,111 +9,60 @@ namespace Boxing_Logic
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Robots v Dinosaurs: Date Submitted: Jan 29th");
+            Console.WriteLine("\n\nRobots v Dinosaurs: Date Submitted: Jan 29th");
             Console.WriteLine("");
-            //Round 1
+
+            Console.WriteLine("Rock, Paper, Lizard, Scissors, Spock: Date Submitted: March 11th");
+            Console.WriteLine("");
+          
             Console.WriteLine("Binary Search Tree: Date Submitted: ~Feb 12th");
             Console.WriteLine("");
 
-            Console.WriteLine("Round#1: Boxer2 score: 10 or 9?");
+            Console.WriteLine("Soda Machine: Date Submitted: Feb 20th");
             Console.WriteLine("");
 
-            int scoreBoxer2_1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Custom List: Date Submitted: April 22d");
             Console.WriteLine("");
 
-            Console.WriteLine("Boxer1 score: " +  "; Boxer2 score: " + scoreBoxer2_1 + "\n");
+            Console.WriteLine("Sweepstakes: Date Submitted: April 19th");
             Console.WriteLine("");
 
-            {
-               
-            }
-            Console.Clear();
-            //Round 2
-            Console.WriteLine("Round #2: Boxer1 score: 10 or 9?");
-            Console.WriteLine("");
+            Console.ReadLine();
 
-            int scoreBoxer1_2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("");
-
-            Console.WriteLine("Round#2: Boxer2 score: 10 or 9?");
-            Console.WriteLine("");
-
-            int scoreBoxer2_2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("");
-
-            Console.WriteLine("Boxer1 score: " + scoreBoxer1_2 + "; Boxer2 score " + scoreBoxer2_1);
-            Console.WriteLine("");
-
-            {
-                bool Boxer1Wins = true;
-                if (scoreBoxer1_2 > scoreBoxer2_2)
-                {
-                    Console.WriteLine("Boxer1 won Round#2!");
-                }
-                else
-                {
-                    Console.WriteLine("Player2 won Round#2");
-                }
-            }
-            Console.Clear();
-            //Round 3
-            Console.WriteLine("Round #3: Boxer1 score: 10 or 9?");
-            Console.WriteLine("");
-
-            int scoreBoxer1_3 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("");
-
-            Console.WriteLine("Round#2: Boxer2 score: 10 or 9?");
-            Console.WriteLine("");
-
-            int scoreBoxer2_3 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("");
-
-            Console.WriteLine("Boxer1 score: " + scoreBoxer1_3 + "; Boxer2 score " + scoreBoxer2_3);
-            Console.WriteLine("");
-
-            {
-                bool Boxer1Wins = true;
-                if (scoreBoxer1_3 > scoreBoxer2_3)
-                {
-                    Console.WriteLine("Boxer1 won Round#3!");
-                }
-                else
-                {
-                    Console.WriteLine("Player2 won Round#3");
-                }
-
-            }
             Console.Clear();
             
             
             {
+                Console.WriteLine();
+                Console.WriteLine();
 
-                string x_1 ="Date Submitted: Jan 29th";
-                string x_2 = "Date Submitted: ~Feb 12th";
-                int x_3 = scoreBoxer1_3;
-                int x_4 = scoreBoxer2_1;
-                int x_5 = scoreBoxer2_2;
-                int x_6 = scoreBoxer2_3;
-               
-                int x_8 = scoreBoxer2_1 + scoreBoxer2_2 + scoreBoxer2_3;
+                string x_1 = "Date Submitted: Jan 29th";
+                string x_2 = "Date Submitted: March 11th";
+                string x_3 = "Date Submitted: ~Feb 12th";
+                string x_4 = "Date Submitted: Feb 20th";
+                string x_5 = "Date Submitted: April 22d";
+                string x_6 = "Date Submitted: Feb 20th";
+
 
 
                 PrintLine();
                 PrintRow("Robots v Dinosaurs", "RPSLS", "SodaMachine", "CustomList");
                 PrintLine();
-                PrintRow("" + x_1, "" + x_2, "" + x_3, "" );
-                PrintRow("" + x_4, "" + x_5, "" + x_6, "" + x_8);
+                PrintRow("" + x_1, "" + x_2, "" + x_3, "" + x_4 );
+            
                 PrintLine();
-              
+
+                Console.WriteLine("");
+                Console.WriteLine("");
+                Console.WriteLine("");
+
                 PrintSecondLine();
-                PrintSecondRow("Binary Search Tree", "Sweepstakes", "Round 3", "Total");
+                PrintSecondRow("Binary Search Tree", "Sweepstakes", "", "");
                 PrintSecondLine();
-                PrintSecondRow("" + x_1, "" + x_2, "" + x_3, "" );
-                PrintSecondRow("" + x_4, "" + x_5, "" + x_6, "" + x_8);
+                PrintSecondRow("" + x_5, "" + x_6, "Thanks",   "!!!!!" );
                 PrintSecondLine();
 
-                //Generate();
+               
                 Console.ReadLine();
             }
 
